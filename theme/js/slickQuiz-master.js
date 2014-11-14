@@ -3,6 +3,7 @@
 $(function () {
     $('#slickQuiz').slickQuiz({
     	"perQuestionResponseMessaging"	: false,
+    	"completionResponseMessaging"	: true,
     	"disableRanking"				: true,
     	"checkAnswerText"				: "Voir la réponse",
     	"nextQuestionText"				: "Question suivante »",
