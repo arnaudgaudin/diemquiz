@@ -9,33 +9,34 @@
         <!-- Quiz configuration -->
         <script src="theme/js/slickQuiz-config.js"></script>
     </head>
+    <body>
+        <div id="slickQuiz">
+            <h1 class="quizName"><!-- where the quiz name goes --></h1>
 
-    <body id="slickQuiz">
-        <h1 class="quizName"><!-- where the quiz name goes --></h1>
+            <div class="quizArea">
+                <div class="quizHeader">
+                    <!-- where the quiz main copy goes -->
 
-        <div class="quizArea">
-            <div class="quizHeader">
-                <!-- where the quiz main copy goes -->
+                    <a class="btn btn-primary startQuiz" href="#">Commencer le quiz</a>
+                </div>
 
-                <a class="button startQuiz" href="#">Get Started!</a>
+                <!-- where the quiz gets built -->
             </div>
 
-            <!-- where the quiz gets built -->
-        </div>
+            <div class="quizResults">
+                <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
 
-        <div class="quizResults">
-            <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
+                <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
 
-            <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
-
-            <div class="quizResultsCopy">
-                <!-- where the quiz result copy goes -->
+                <div class="quizResultsCopy">
+                    <!-- where the quiz result copy goes -->
+                </div>
             </div>
-        </div>
 
-        <!-- Bower librairies -->
-        <script src="_lib/jquery/jquery.js"></script>
-        <script src="_lib/SlickQuiz/js/slickQuiz.js"></script>
-        <script src="_lib/SlickQuiz/js/master.js"></script>
+            <!-- Bower librairies -->
+            <script src="_lib/jquery/jquery.js"></script>
+            <script src="_lib/SlickQuiz/js/slickQuiz.js"></script>
+            <script src="_lib/SlickQuiz/js/master.js"></script>
+        </div>
     </body>
 </html>
